@@ -1,0 +1,61 @@
+functionality test#2
+[0;32m✖[0m Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"2222"[0m
+[0;90m    at Context.<anonymous> (/code/workspace/test/test.js:18:25)
+    at <anonymous>[0m 
+
+    1) test#2
+[0;32m✖[0m Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"241"[0m
+[0;90m    at Context.<anonymous> (/code/workspace/test/test.js:33:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)[0m 
+
+    2) test#3
+[0;32m✖[0m Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"312"[0m
+[0;90m    at Context.<anonymous> (/code/workspace/test/test.js:48:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)[0m 
+
+    3) test#4
+[0;32m✖[0m Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"0"[0m
+[0;90m    at Context.<anonymous> (/code/workspace/test/test.js:63:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)[0m 
+
+    4) test#5
+
+
+  0 passing (48s)
+  4 failing
+
+  1) functionality test#2
+       test#2:
+     Error while running "element" command: Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"2222"[0m
+      at Context.<anonymous> (test/test.js:18:25)
+      at <anonymous>
+
+  2) functionality test#2
+       test#3:
+     Error while running "element" command: Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"241"[0m
+      at Context.<anonymous> (test/test.js:33:25)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+
+  3) functionality test#2
+       test#4:
+     Error while running "element" command: Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"312"[0m
+      at Context.<anonymous> (test/test.js:48:19)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+
+  4) functionality test#2
+       test#5:
+     Error while running "element" command: Expected element <#input4> to have value equal to: "" - expected [0;32m"equal to ''"[0m but got: [0;31m"0"[0m
+      at Context.<anonymous> (test/test.js:63:21)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
+
+
+
+ [1;31m[0;31m  Error: Mocha reported test failures.[0m
+[0;90m       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7)[0m[0m
